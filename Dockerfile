@@ -1,5 +1,6 @@
-FROM buildpack-deps:wheezy
-
+FROM daocloud.io/library/centos
+#daocloud.io/library/centos
+#buildpack-deps:wheezy
 # remove several traces of debian python
 RUN apt-get purge -y python.*
 
