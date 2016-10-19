@@ -1,4 +1,5 @@
-FROM daocloud.io/library/centos
+FROM daocloud.io/centos:7
+#daocloud.io/centos:7
 #daocloud.io/library/centos
 #buildpack-deps:wheezy
 # remove several traces of debian python
